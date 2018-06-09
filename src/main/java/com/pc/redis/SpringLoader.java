@@ -3,7 +3,6 @@ package com.pc.redis;
 
 import com.pc.redis.pubsub.PubSubListener;
 import com.pc.redis.pubsub.SubClient;
-import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
 
 @Component
