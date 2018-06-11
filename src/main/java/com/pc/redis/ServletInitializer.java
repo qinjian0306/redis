@@ -36,6 +36,16 @@ public class ServletInitializer {
     }
 
 
+    @Bean
+    public TestInterfaceBean testInterfaceBean(){
+        return args -> {
+            String[] a = new String[10];
+            System.out.println("test --->  interface bean");
+
+        };
+    }
+
+
     /** 启动 redis 订阅线程 **/
     private void initRedisSub() {
 
